@@ -26,6 +26,7 @@ const Expenses = (props) =>{
             />
             <ExpensesChart expenses={filteredExpenses} />
             <ExpensesList items={filteredExpenses} />
+            <ExpensesList items={filteredExpenses} />
         </Card>
         </div>
     )
